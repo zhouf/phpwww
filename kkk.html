@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<meta http-equiv="Access-Control-Allow-Origin" content="*" />
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+<script>
+    function func(params) {
+        console.info('fun');
+        fetch('http://172.18.1.5:8080/client/api?command=listVirtualMachines&apikey=2A-b5gBmFSG5ostjeE3SgkBl6MQKFM4xWEWaszB2fr0EewflF_aMqNwOsCC1mofUyjDBUNvX3L6GGsoo_lsu0A&signature=in-xM6VptF_RM443qezHlkcIl00-vRKp96DeQwcM7QqnzpZ4oms1lYI35N2ievw7U4S6Y_T1ikKOGydHwh6QCA')
+        .then(response => response.json()).then(data => console.log(data));
+    }
+</script>
+</head>
+<body>
+<h1>Fetch</h1>
+<p></p>
+<input type="button" value="kk" onclick="func()"/>
+
+</body>
+</html>
