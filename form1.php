@@ -12,7 +12,6 @@ if(is_array($username)){
     }
 }
 
-include 'part.php';
 ?>
 
 <form method="get">
@@ -26,3 +25,7 @@ include 'part.php';
 </form>
 </body> 
 </html>
+<?php
+include 'file1.php';
+
+?>
