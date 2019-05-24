@@ -31,7 +31,7 @@ for($i=1;$i<=10;$i+=2){
     echo "run $i, ";
 }
 
-echo add(3,5);
+echo add(3,5),'<br>';
 
 echo 'Line is :' ,__LINE__,PHP_EOL;
 echo substr(__FILE__,strlen(__DIR__)-strlen(__FILE__)+1);
