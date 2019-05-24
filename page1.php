@@ -1,7 +1,7 @@
 <!DOCTYPE html> 
 <html> 
 <body> 
-<h2>Page1</h2>
+<h2>Page1 session</h2>
 <?php
 session_start();
 if(isset($_SESSION['cnt'])){
