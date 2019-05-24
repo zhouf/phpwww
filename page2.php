@@ -33,11 +33,11 @@ function showHint(str)
 </head>
 <body>
 
-<p><b>在输入框中输入一个姓名:</b></p>
-<form> 
-姓名: <input type="text" onkeyup="showHint(this.value)">
-</form>
-<p>返回值: <span id="txtHint"></span></p>
+    <p><b>在输入框中输入一个姓名:</b></p>
+    <form> 
+    姓名: <input type="text" onkeyup="showHint(this.value)">
+    </form>
+    <p>返回值: <span id="txtHint"></span></p>
 
 </body>
 </html>
