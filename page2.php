@@ -32,7 +32,7 @@ function showHint(str)
 </script>
 </head>
 <body>
-
+    <br>
     <p><b>在输入框中输入一个姓名:</b></p>
     <form> 
     姓名: <input type="text" onkeyup="showHint(this.value)">
