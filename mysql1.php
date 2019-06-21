@@ -8,8 +8,8 @@ echo 'MySQL<br>',PHP_EOL;
 echo '<br>';
 
 $servername = '192.168.209.60';
-$username = 'admin';
-$password = 'AdminKey';
+$username = 'jsp';
+$password = 'mysql';
 $db = 'jsp';
 echo $servername;
 
