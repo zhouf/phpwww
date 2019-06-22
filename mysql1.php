@@ -3,7 +3,6 @@
 <body> 
 <h2>MySQL page</h2>
 <?php
-error_reporting(E_ALL^E_NOTICE);
 echo 'MySQL<br>',PHP_EOL;
 echo '<br>';
 
